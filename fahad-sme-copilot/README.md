@@ -2,7 +2,7 @@
 
 A bilingual (English / বাংলা) finance copilot for Bangladeshi small-business owners. It runs entirely in the browser, works offline once installed, and keeps all business data on the user's own device.
 
-**GitHub repository:** `https://github.com/<your-username>/fahad-sme-copilot` (replace after you push, see "Publish to GitHub" below)
+**GitHub repository:** https://github.com/fahad123/fahad-sme-copilot
 
 ## What it does
 
@@ -23,7 +23,7 @@ Bangladesh specifics: taka with lakh/crore grouping and Bangla digits, monthly V
 No build step and no dependencies.
 
 ```bash
-git clone https://github.com/<your-username>/fahad-sme-copilot.git
+git clone https://github.com/fahad123/fahad-sme-copilot.git
 cd fahad-sme-copilot
 python3 -m http.server 8080      # or: npm start
 # open http://localhost:8080
@@ -64,7 +64,7 @@ The app is static files, so any static host works. It must be served over HTTPS 
 **GitHub Pages**
 1. Push the repository (below).
 2. Repository Settings, then Pages, then "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Your link is `https://<your-username>.github.io/fahad-sme-copilot/`.
+3. Your link is `https://fahad123.github.io/fahad-sme-copilot/`.
 
 **Cloudflare Pages / Vercel:** import the repository, leave the build command empty and set the output directory to `.`.
 
@@ -80,7 +80,7 @@ git init -b main
 git add .
 git commit -m "Fahad SME Finance Copilot v1.0"
 # create an empty repo named fahad-sme-copilot on github.com, then:
-git remote add origin https://github.com/<your-username>/fahad-sme-copilot.git
+git remote add origin https://github.com/fahad123/fahad-sme-copilot.git
 git push -u origin main
 ```
 
