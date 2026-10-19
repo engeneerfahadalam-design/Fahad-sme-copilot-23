@@ -2,7 +2,9 @@
 
 A bilingual (English / বাংলা) finance copilot for Bangladeshi small-business owners. It runs entirely in the browser, works offline once installed, and keeps all business data on the user's own device.
 
-**GitHub repository:** `https://github.com/<your-username>/fahad-sme-copilot` (replace after you push, see "Publish to GitHub" below)
+**GitHub repository:** https://github.com/engeneerfahadalam-design/Fahad-sme-copilot-23
+
+**Live demo:** https://engeneerfahadalam-design.github.io/Fahad-sme-copilot-23/ (works once GitHub Pages is turned on in the repository settings)
 
 ## What it does
 
@@ -23,8 +25,8 @@ Bangladesh specifics: taka with lakh/crore grouping and Bangla digits, monthly V
 No build step and no dependencies.
 
 ```bash
-git clone https://github.com/<your-username>/fahad-sme-copilot.git
-cd fahad-sme-copilot
+git clone https://github.com/engeneerfahadalam-design/Fahad-sme-copilot-23.git
+cd Fahad-sme-copilot-23
 python3 -m http.server 8080      # or: npm start
 # open http://localhost:8080
 ```
@@ -64,7 +66,7 @@ The app is static files, so any static host works. It must be served over HTTPS 
 **GitHub Pages**
 1. Push the repository (below).
 2. Repository Settings, then Pages, then "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Your link is `https://<your-username>.github.io/fahad-sme-copilot/`.
+3. Your link is `https://engeneerfahadalam-design.github.io/Fahad-sme-copilot-23/`.
 
 **Cloudflare Pages / Vercel:** import the repository, leave the build command empty and set the output directory to `.`.
 
@@ -75,12 +77,12 @@ After changing any file, bump the cache name in `sw.js` (`sme-copilot-vN`) so us
 ## Publish to GitHub
 
 ```bash
-cd fahad-sme-copilot
+cd Fahad-sme-copilot-23
 git init -b main
 git add .
 git commit -m "Fahad SME Finance Copilot v1.0"
-# create an empty repo named fahad-sme-copilot on github.com, then:
-git remote add origin https://github.com/<your-username>/fahad-sme-copilot.git
+# create an empty repo named Fahad-sme-copilot-23 on github.com, then:
+git remote add origin https://github.com/engeneerfahadalam-design/Fahad-sme-copilot-23.git
 git push -u origin main
 ```
 
@@ -109,3 +111,4 @@ Rates, limits and eligibility are indicative and change often. The fit score is 
 ## License
 
 MIT, see `LICENSE`.
+
