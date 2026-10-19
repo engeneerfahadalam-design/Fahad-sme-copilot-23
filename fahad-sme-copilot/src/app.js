@@ -371,3 +371,4 @@ $('#ad').onclick=()=>{const d=$('#ed').value,l=$('#en').value.trim(),a=Math.abs(
 $('#qs').onclick=()=>{say($('#q').value);$('#q').value=''};$('#q').onkeydown=e=>{if(e.key==='Enter')$('#qs').click()};
 lang();
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+
