@@ -1,0 +1,12 @@
+{
+  "name": "fahad-sme-copilot",
+  "version": "1.0.0",
+  "description": "Bilingual (English/Bangla) finance copilot for Bangladeshi SMEs: cash-flow alerts, financing match, risk check and business analysis.",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  }
+}
