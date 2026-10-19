@@ -346,3 +346,4 @@ The app is static files. Deploy to Netlify, GitHub Pages or Cloudflare Pages ove
 # 8. Limitations and disclaimer
 
 Rates, limits and eligibility are indicative. The fit score and health score are rules of thumb, not lender or credit-bureau decisions. The forecast is a steady-run-rate projection plus the one-off items the user adds. The business-type watch-outs and the rule-of-thumb targets (three-month reserve, about 30% maximum from one customer) are general good practice, not predictions. The application provides planning guidance and is not financial, tax or legal advice.
+
