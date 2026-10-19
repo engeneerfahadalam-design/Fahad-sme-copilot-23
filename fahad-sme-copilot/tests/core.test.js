@@ -384,3 +384,4 @@ test('New tax fields survive a backup and hostile values are sanitised', async (
   assert.equal(c.legal, 'sole'); assert.equal(c.cat, 'gen'); assert.equal(c.vmode, 'std'); assert.equal(c.vrate, 100);
   assert.equal(c.tfloor, true); assert.equal(c.ait, 0); assert.equal(c.invest, 1e12);
 });
+
